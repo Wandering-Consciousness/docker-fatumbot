@@ -17,6 +17,7 @@ COPY libAttract.a .
 COPY libAttract.a.0.96.1 .
 COPY libAttract.so .
 COPY libAttract.so.0.96.1 .
+COPY google_play_developer_api_credentials.json .
 
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash - \ 
 	&& apt update \
